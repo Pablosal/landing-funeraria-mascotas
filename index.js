@@ -60,27 +60,28 @@ var sceneDog = new ScrollMagic.Scene({
   triggerElement: "#stage"
 })
   .setTween(secondTween) // trigger a TweenMax.to tween
-  .addIndicators({ name: "1 (duration: 0)" }) // add indicators (requires plugin)
+
   .reverse(false)
   .addTo(controller);
+
 var sceneNeuro = new ScrollMagic.Scene({
-  triggerElement: "#stage2"
+  triggerElement: "#stage"
 })
   .setTween(thirdTween) // trigger a TweenMax.to tween
-  .addIndicators({ name: "1 (duration: 0)" }) // add indicators (requires plugin)
+
   .reverse(false)
   .addTo(controller);
 var scenePseudo = new ScrollMagic.Scene({
-  triggerElement: "#stage3"
+  triggerElement: "#stage2"
 })
   .setTween(fouthTween) // trigger a TweenMax.to tween
-  .addIndicators({ name: "1 (duration: 0)" }) // add indicators (requires plugin)
+
   .reverse(false)
   .addTo(controller);
 var scenePse = new ScrollMagic.Scene({
-  triggerElement: "#stage4"
+  triggerElement: "#stage3"
 })
   .setTween(fifthTween) // trigger a TweenMax.to tween
-  .addIndicators({ name: "1 (duration: 0)" }) // add indicators (requires plugin)
+
   .reverse(false)
   .addTo(controller);
